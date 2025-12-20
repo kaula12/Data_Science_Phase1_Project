@@ -4,11 +4,11 @@
 
 Author: ***Marcus Kaula***
 
-AVIATION DATA
+**AVIATION DATA**
 
-Tableau link: https://public.tableau.com/views/Aviation_17660534129580/Aviation?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+***Tableau link***: https://public.tableau.com/views/Aviation_17660534129580/Aviation?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
-OVERVIEW
+**OVERVIEW**
 
 The aviation industry iss a highly regulated and risk sensitive sector where safety, reliability and operational performance are critical to business success. As organizations seek to expand into aviation related ventures, data driven insights become essential for minimizing risk and supporting startegic investment decisions.
 
@@ -16,7 +16,7 @@ This project utilizes historical aviation accident data provided by the National
 
 Through exploratory data analysis, data cleaning, imputation and visualization, this project seeks to transform raw accident recrds into meaningful insights. These insights will support business stakeholders in evaluating aircraft risk levels and making informed decisions when entering the aviation market.
 
-PROBLEM STATEMENT
+**PROBLEM STATEMENT**
 
 Key challenges faced by decision-makers include:
 
@@ -34,11 +34,11 @@ This project seeks to answer the following question:
 
 Addressing this problem will enable business leaders to make evidence based aircraft purchasing decisions, reduce exposure to safety risks, and establish a strong foundation for successful entry into the aviation industry.
 
-ANALYSIS
+**ANALYSIS**
 
 ![alt text](Images/Fatality_vs_aircrafrt_make.png)
 
-Key Observations
+*Key Observations*
 
 1. Across the top 10 aircraft manufacturers, non-fatal incidents significantly outnumber fatal incidents, but the ratio of fatal to non-fatal outcomes varies noticeably by manufacturer with the ratio of fatal to non fatal injuries slightly higher in Mooney.
 
@@ -46,7 +46,7 @@ Key Observations
 
 ![alt text](Images/Fatality_Rate_by_Weather_Condition.png)
 
-Key Observations
+*Key Observations*
 
 1. IMC accidents have a significantly higher fatality rate per incident than VMC accidents.
 
@@ -54,7 +54,7 @@ Key Observations
 
 ![alt text](Images/Fatal_vs_Non-Fatal_Accidents_by_Broad_Phase_of_Flight.png)
 
-Key Observations
+*Key Observations*
 
 1. A small number of flight phases account for the majority of both total and fatal accidents.
 
@@ -62,7 +62,7 @@ Key Observations
 
 ![alt text](Images/Engine_type_vs_fatality_rate.png)
 
-Key Observations
+*Key Observations*
 
 1. Certain engine types like Turbo Fan show higher average fatal injuries per incident, meaning accidents involving these engines tend to be more severe.
 
@@ -70,7 +70,7 @@ Key Observations
 
 ![alt text](Images/Aircraft_model_vs_fatality_rate.png)
 
-Key Observations
+*Key Observations*
 
 1. Aircraft models vary substantially in fatal injury rate per incident, with some models like TU-154 and 767-366-ER producing far more fatalities per accident than others like 737-2T4 and A320-233.
 
@@ -78,7 +78,7 @@ Key Observations
 
 ![alt text](Images/Accident_Trend_Over_Time.png)
 
-Key Observations
+*Key Observations*
 
 1. Total accidents have declined over time, suggesting improvements in aviation safety overall.
 
@@ -87,27 +87,27 @@ Key Observations
 
 **Conclusions**
 
-Visual 1: Fatal vs Non-Fatal Outcomes for Top 10 Aircraft Makes
+***Fatal vs Non-Fatal Outcomes for Top 10 Aircraft Makes***
 
 - Aircraft manufacturer is associated not only with how often incidents occur, but with how severe those incidents tend to be. Manufacturers with lower fatal-to-non-fatal ratios present lower operational and financial risk, even if they appear frequently in accident data.
 
-Visual 2: Top 10 Aircraft Models by Fatal Injury Rate
+***Top 10 Aircraft Models by Fatal Injury Rate***
 
 - Aircraft model choice has a direct and measurable impact on accident severity, making fatal injury rate a more relevant risk metric than raw accident counts.
 
-Visual 3: Mean Fatal Injuries per Incident by Engine Type
+***Mean Fatal Injuries per Incident by Engine Type***
 
 - Engine type influences accident severity, not just aircraft performance, and should be treated as a core safety consideration in acquisition decisions
 
-Visual 4: Fatal vs Non-Fatal Accidents by Broad Phase of Flight
+***Fatal vs Non-Fatal Accidents by Broad Phase of Flight***
 
 - Accident risk is not evenly distributed across flight operations specific phases represent concentrated points of failure.
 
-Visual 5: Fatality Rate by Weather Condition (VMC vs IMC)
+***Fatality Rate by Weather Condition (VMC vs IMC)***
 
 - Weather conditions strongly affect accident severity, with IMC operations posing outsized fatality risk.
 
-Visual 6: Accident Trends Over Time
+***Accident Trends Over Time***
 
 - Despite overall safety improvements, high severity accidents remain a business risk, reinforcing the need for careful aircraft and operational choices.
 
