@@ -1,4 +1,4 @@
-**Reducing Aviation Investment Risk: A Data-Driven Analysis of Aircraft Safety**
+# **Aviation Investment Risk: A Data-Driven Analysis of Aircraft Safety**
 
 ![alt text](Images/Thumbnail.png)
 
